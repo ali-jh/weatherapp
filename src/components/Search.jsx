@@ -1,7 +1,6 @@
 import { SearchIcon } from "@chakra-ui/icons";
 import { Box, Input, InputGroup, InputRightElement } from "@chakra-ui/react";
-import axios from "axios";
-import React, { useEffect, useState } from "react";
+import React, {  } from "react";
 
 
 const Search = ({setcityname}) => {

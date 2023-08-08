@@ -13,7 +13,7 @@ function App() {
   useEffect(() => {
     axios
       .get(
-        `https://api.openweathermap.org/data/2.5/weather?q=${cityname}&appid=${ApiKey}`
+        `https://api.openweathermap.org/data/2.5/weather?q=${cityname}&units=metric&appid=${ApiKey}`
       )
       .then((res) => setData(res.data));
   }, [cityname]);
